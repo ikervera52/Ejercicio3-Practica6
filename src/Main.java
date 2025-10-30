@@ -181,6 +181,7 @@ public class Main {
         Matcher matcher = patron.matcher(frase);
         if (!matcher.matches()){
             System.out.println("** La frase solo puede tener letras en mayúsculas y minuscules **");
+            frase.delete(0, frase.length());
             pedirPalindromo();
         }
         comprobarPalindromo();
