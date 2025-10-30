@@ -122,6 +122,7 @@ public class Main {
         }
         catch (InputMismatchException ex){
             System.out.println("** Valores no validos **");
+            numeroParPrimo();
         }
     }
     public static void numerosEnMedio(){
